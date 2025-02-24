@@ -1,0 +1,64 @@
+* {
+    background-color: #babea4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fieldset1, .fieldset2 {
+    border-width: 20px;
+}
+
+#legend1, #legend2, #legend326 {
+    text-align: center;
+    font-size: 50px; 
+    font-weight: bold;
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+} 
+
+body {
+    padding: 100px;
+    margin: 50px;
+}
+
+.container {
+    background-color: lightcyan;
+    width: 1100px;
+    height: 95px;
+    text-align: center;
+    align-items: center;
+    margin: 384px;
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.button {
+    border-radius: 15px;
+    width: 1200px;
+    height: 80px;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    padding: 5px;
+    size: 100px;
+    font-weight: 900;
+    font-size: 50px;
+    align-items: center;
+}
+
+#newFact {
+    width: 800px;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.30s;
+}

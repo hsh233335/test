@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/funfactstyles.css">
+    <title>Fun Fact Generator</title>
+</head>
+<body>
+  <h1>HTML Fun Stuff By: Pudis</h1>
+  <br>
+  <br>
+  <fieldset class="fieldset1"> <legend id="legend1">Fun Fact Generator</legend>
+    <h1>Fun Fact Generator</h1>
+    <div class="container" id="fact">
+      <script src="js/funfact.js"></script> <br>
+    </div>
+    <br>
+      <button class="button" onclick="showFact()">Press this button to show a fun fact!</button> <br>
+      <button class="button" onclick="location.reload()">Refresh Fun Fact</button> <br>
+      <input type="text" id="newFact" placeholder="Enter your fun fact here...">
+      <button class="button" onclick="addFact()">Submit Fun Fact</button>
+      <button class="button" onclick="showfunfactlist()">Show the facts</button>
+      <h3>Select a fact type:</h3>
+      <select name="select" id="select1">
+        <option value="Weather">Weather Facts</option>
+        <option value="Human Body">Human Body Facts</option>
+        <option value="Chemistry">Chemistry Facts</option>
+      </select>
+    </fieldset>
+  <br>
+  <br>
+  <fieldset class="fieldset2"> <legend id="legend2">Fun Quiz (Coming Soon!)</legend>
+    <h1>Fun Quiz!</h1>
+  </fieldset>
+  <br>
+  <br>
+  <fieldset class="fieldset1"> <legend id="legend3">Dark Mode and Light Mode</legend>
+    <script src="js/darkmode_lightmode.js"></script>3+65555
+    <button class="button" onclick="darkmode()">Dark Mode</button>
+    <button class="button" onclick="lightmode()">Light Mode</button>
+  </fieldset>
+</body>
+</html>
